@@ -235,6 +235,7 @@ nav .fa-solid {
       align-items: center;
       justify-content: center;
       flex-basis: 100%;
+      margin-left: 0;
    }
    
    .about-text {
@@ -330,11 +331,15 @@ nav .fa-solid {
    .Edu-sec{
       text-align: center;
    }
-   .edu-details {
-      flex: 1 1 100%; 
-      margin: 20px; 
-      box-sizing: border-box; 
+   .edu-col {
+      width: 100%;
+      margin: 20px 0; /* Adjust the margin for smaller screens */
    }
+   .edu-details {
+      flex: 1 1 100%; /* Make each detail box take full width */
+      margin: 10px 20px; /* Adjust the margin for better spacing */
+   }
+
 }
 
 
@@ -439,9 +444,9 @@ nav .fa-solid {
    margin: 5%;
 }
 
-.project-1 h1{
+.project h1{
    color: green;
-   /* margin: 10px; */
+   margin: 10px;
    font-size: 22px;
 }
 
@@ -561,6 +566,9 @@ form input, form textarea {
          color: black;
          font-size: 15px;
          margin: 20px;
+      }
+      .contact-right{
+         flex-basis: 90%;
       }
 
    }

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" ref="stylesheet/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Praveen Kumar</title>
+</head>
+<body>
+
+    <!-- Home Section starts -->
+
+    <header>
+        <nav class="main-nav">
+            <h1 class="logo" style="color: green; font-size: 40px; margin-left:5%;">P<span class="logo1" style="font-size: 25px;">RAVEEN.</span></h1>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact Us  </a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+    <section class="home-sec" id="home">
+        <div class="intro">
+            <div class="text-content">
+                <h1>Hi, I'm <span>Praveen Kumar</span></h1>
+                <p>FrontEnd Developer</p>
+            </div>
+        </div>
+        <div class="main-intro">
+            <p>Aspiring an entry-level Software Engineer role to apply programming skills and contribute to innovative projects.<br> 
+            Passionate about technology, eager to collaborate with professionals for excellence in software engineering.</p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/praveen-kumar-yajjala-81b815215/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Praveenyajjala14" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/p_yajjala14/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@Praveenyajjala14" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="resume">
+            <a href="https://drive.google.com/file/d/1GMjTXYUjDjk7c-ZQAp9Qim18RvCreG1D/view?usp=sharing" class="btn" target="_blank">Resume</a>
+        </div>
+    </section>
+
+    <!-- Home Section ends -->
+
+    <!-- JS for navbar starts -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+        function hideMenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+
+    <!-- JS for navbar ends -->
+    
+    <!-- About me Section starts -->
+
+    <section class="about-sec" id="about">.
+        <hr style="border: 0; height: 5px; background: rgb(115, 202, 115); width: 100%; ">
+    
+        <h1 style="margin: 80px 100px 0 ; font-size: 40px; color: green;">About Me</h1>
+
+        <div class="container">
+            <div class="about-row">
+                <div class="about-img">
+                    <img src="Images/Profilebg.png" alt="profileImage">
+                </div>
+                <div class="about-text">
+                    <h1>Hello, Welcome to my Portfolio</h1>
+                    <p>My name is<span style="color: green; font-weight: bolder; text-transform: uppercase;"> Praveen Kumar Yajjala </span>. I'm from Tuni, Andhra Pradesh. Recently I completed my Bachelor of Technology in computer science and engineering with 7.7 CGPA from Aditya college of engineering. I completed my Schooling and Intermediate in my home town.. I completed my Intermediate from Sri Chaitanya junior college with 8.7 CGPA and  I completed my Schooling from Loyola English Medium school with 9.7 CGPA.
+                        Come to my skills, During my college days I completed my internship on full stack development, From that Technology I came to know that how I can develop a web application by using the languages that I have learned and I done couples of projects during my internship. I am good at FrontEnd Technologies.
+                        Coming to my Hobbies, I listen to the music when I get free time. If i feel bored i will do video editing with the moments that I have captured before and I will upload those videos Into my social media accounts as memories.
+                    </p>
+                    <div class="button-container">
+                        <a href="#Education" class="edu-btn">Education</a>
+                        <a href="#skills" class="skill-btn">Skills</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About me Section ends -->
+
+    <!-- Education Section starts -->
+
+    <div class="Edu-sec" id="Education">    
+        <h1 style="margin: 100px 100px 0  ; font-size: 40px; color: green;">Education</h1> 
+        <div class="edu-row">
+            <div class="edu-col">
+                <div class="edu-details">
+                    <h2 class="edu-h2">Bachelors of Technology</h2>
+                    <h4 class="edu-h4">Aditya College of engineering</h4>
+                    <p class="edu-p">computer science and Engineering</p>
+                    <p class="edu-cgpa">CGPA: 7.67</p>
+                </div>
+                <div class="edu-details">
+                    <h2 class="edu-h2">Board of Intermediate Education</h2>
+                    <h4 class="edu-h4">Sri Chaitanya Jr College</h4>
+                    <p class="edu-p">Mathmateics, Physics, chemistry</p>
+                    <p class="edu-cgpa">CGPA: 8.9</p>
+                </div>
+                <div class="edu-details">
+                    <h2 class="edu-h2">Board of Secondary Education</h2>
+                    <h4 class="edu-h4">Loyola English Medium School</h4>
+                    <p class="edu-p">State Board</p>
+                    <p class="edu-cgpa">CGPA: 9.7</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Education Section ends -->
+
+    <!-- Skills Section starts -->
+
+    <section class="skills-sec" id="skills">
+        <div class="skill-main">
+            <hr style="border: 0; height: 5px; background: rgb(115, 202, 115); width: 100%; ">
+            <h1 style="margin: 100px 100px 0 ; font-size: 40px; color: green;">Skills</h1>
+            <h1 class="skill-Heading">Technical Skills</h1>
+            <div class="skill-row">
+                <div class="skill-col">
+                    <div class="tech-skill">
+                        <p class="tech-p"><i class="fa-brands fa-python"></i>Python</p>
+                        <p class="tech-p"><i class="fa-brands fa-html5"></i>HTML</p>
+                        <p class="tech-p"><i class="fa-brands fa-css3-alt"></i>CSS</p>
+                        <p class="tech-p"><i class="fa-brands fa-bootstrap"></i>BootStrap</p>
+                        <p class="tech-p"><i class="fa-brands fa-js"></i>JavaScript</p>
+                        <p class="tech-p"><i class="fa-brands fa-react"></i>React.Js</p>
+                        <p class="tech-p"><i class="fa-solid fa-database"></i>SQL & MongoDB</p>
+                        <p class="tech-p"><i class="fa-brands fa-github"></i>Git/Github</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="skill-Heading">Professional skills</h1>
+            <div class="skill-row">
+                <div class="skill-col">
+                    <div class="tech-skill">
+                        <p class="tech-p"><i class="fa-solid fa-people-arrows"></i>Communication skills</p>
+                        <p class="tech-p"><i class="fa-brands fa-teamspeak"></i>Leadership</p>
+                        <p class="tech-p"><i class="fa-solid fa-business-time"></i></i>Time management</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="skill-Heading">Interests</h1>
+            <div class="skill-row">
+                <div class="skill-col">
+                    <div class="tech-skill">
+                        <p class="tech-p"><i class="fa-solid fa-film"></i>Cinematic</p>
+                        <p class="tech-p"><i class="fa-solid fa-computer"></i>Editing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section  ends-->
+
+    <!-- Priojects Section starts -->
+
+    <section class="project-sec" id="Projects">
+        <hr style="border: 0; height: 5px; background: rgb(115, 202, 115); width: 100%; margin-top: 50px; ">
+        <h1 style="margin: 100px 100px 0 ; font-size: 40px; color: green;">Projects</h1>
+
+        <div class="project-row">
+            <div class="project-col">
+                <div class="projects">
+                    <div class="project">
+                        <h1>Policy Breach</h1>
+                        <p>Built a secure back-end with Node.js and MongoDB for user data management. Enhanced user experience by 20% through real-time updates and interactive elements using React.js. Conducted rigorous testing and debugging to ensure the reliability and functionality of the Policy Breach application.</p>
+                        <div class="project-icon"><a href="#" target="_blank"><i class="fa-solid fa-eye"></i></a></i></div>
+                    </div>
+                    <div class="project">
+                        <h1>Edu Tech</h1>
+                        <p>Developed an EduTech website offering interactive courses and learning resources. Integrated user authentication, progress tracking, and personalized dashboards for an enhanced learning experience. The platform supports multimedia content, quizzes, and real-time discussions, ensuring engagement and effective learning outcomes. Scalable architecture allows seamless content updates and user management.</p>
+                        <div class="project-icon"><a href="#" target="_blank"><i class="fa-solid fa-eye"></i></a></i></div>
+                    </div>
+                    <div class="project">
+                        <h1>Port Aqua Market demand analysis and Recommendation System</h1>
+                        <p>We developed a fish classification project using ResNet50 to help customers at ports identify fish species. The system provides detailed information post-classification. Additionally, we implemented a recommendation system with Singular Value Decomposition (SVD), offering tailored fish suggestions based on regional availability and customer preferences.</p>
+                        <div class="project-icon"><a href="#" target="_blank"><i class="fa-solid fa-eye"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+     <!-- Priojects Section ends -->
+
+     <!-- Contact section starts -->
+
+    <section class="contact-sec" id="contact">
+        <hr style="border: 0; height: 5px; background: rgb(115, 202, 115); width: 100%; ">
+        <h1 class="contact-heading">Contact Me</h1>
+
+        <div class="contact-row">
+            <div class="contact-col">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Details</h1>
+                    <p class="contact-text"><i class="fa-solid fa-envelope"></i>praveenyajjala98@gmail.com</p>
+                    <p class="contact-text"><i class="fa-solid fa-phone"></i>9441289198</p>
+                    <div class="social-media sm">
+                        <a href="https://www.linkedin.com/in/praveen-kumar-yajjala-81b815215/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Praveenyajjala14" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/p_yajjala14/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@Praveenyajjala14" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <div class="resume1">
+                        <a href="Images/Praveen_Frontenddev.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Full name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+     <!-- Contact section Ends -->
+
+    <!-- Footer section starts -->
+
+    <div class="copyright">
+        <p>Copyright &copy; Praveen Kumar. Made with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+
+    <!-- Footer section Ends -->
+
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxirTA58VGC8a3hMRGbedwn5DpeXU7ffCycxPxEHpu33sWYDIOnh_CnsdSH16MQSj7g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent Successfully"
+                setTimeout(function() {
+                    msg.innerHTML = " "
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>

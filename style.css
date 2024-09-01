@@ -349,7 +349,8 @@ nav .fa-solid {
 /* Skill Section  start*/
 
 .skill-Heading{
-   margin: 50px 130px;
+   margin: 50px;
+   text-align: center;
    color: black;
    font-size: 30px;
 }
